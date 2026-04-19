@@ -4,6 +4,7 @@ import taskImg from '../assets/task-manager.png'
 import financeImg from '../assets/finance-tracker.png'
 import cakeImg from '../assets/cakebliss.png'
 import petImg from '../assets/petorder.png'
+import portfolioImg from '../assets/portfolio.png'
 
 function PortfolioSection() {
   const projects = [
@@ -43,7 +44,7 @@ function PortfolioSection() {
       id: 5,
       title: 'My Portfolio',
       subtitle: 'React + Vite + Tailwind',
-      image: financeImg,
+      image: portfolioImg,
       demoUrl: '#',
       codeUrl: '#',
     },
